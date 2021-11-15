@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0055)https://qmul-survface.github.io/QMUL-SurvFace/index.htm -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>QMUL-OpenLogo</title>
+      <meta name="description" content="Existing logo detection benchmarks consider 
+            artificial deployment scenarios by assuming
+            that large training data with fine-grained bounding box annotations 
+            for each class are available for model training.
+            Such assumptions are often invalid in realistic logo detection scenarios where 
+            new logo classes come progressively and require to be detected
+            with little or none budget for exhaustively labelling fine-grained training data 
+            for every new class.
+            Existing benchmarks are thus
+            unable to evaluate the true performance of a logo detection method 
+            in realistic and open deployments.
+            In this work, we introduce a more realistic
+            and challenging logo detection setting, called <b>Open Logo Detection</b>. 
+            Specifically,
+            this new setting assumes fine-grained labelling only on 
+            a small proportion of logo classes whilst the remaining classes
+            have no labelled training data to simulate the
+            open deployment.
+            Further, 
+            we create an open logo detection benchmark, called <b>QMUL-OpenLogo</b>,
+            to promote the investigation of this new challenge.
+            QMUL-OpenLogo contains 27,083 images from 352 logo classes,
+            built by aggregating and refining 7 existing datasets
+            and establishing an open logo detection evaluation protocol.">
+      <meta name="keywords" content="QMUL; 
+         QMUL OpenLogo Dataset; OpenLogo;
+         logo recognition; logo detection; 
+         benchmark; computer vision;">
+      <!-- Fonts and stuff -->
+      <link href="./CSS/project.css" rel="stylesheet">
+      <link href="./CSS/iconize.css" rel="stylesheet">
+      <link href="./css/" rel="shortcut icon">
+      <script type="text/javascript" async="" src="./CSS/ga.js"></script>
+      <link href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144">
+      <link href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114">
+      <link href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72">
+      <link href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon-precomposed">
+   </head>
+   <body>
+      <div id="content">
+      <div id="content-inner">
+         <div class="section head">
+	    <p>
+                <h1 id="SMVL Dataset">SMVL: Spoarts Match Video Dataset</h1>
+            </p>
+            <ul id="tabs">
+               <li><a href="https://hangsu0730.github.io/SMVL/index.html" name="#tab3">Home</a></li>
+               <!-- <li><a href="https://qmul-survface.github.io/protocols.html" name="#tab2">Protocols</a></li>-->
+               <li><a href="https://hangsu0730.github.io/SMVL/benchmark.html" name="#tab3" id="current">Leaderboard</a></li>
+            </ul>
+         </div>
+         <h2 id="description">SMVL active learning results. Detection model based on FR-CNN [3] and Res101 [4] architecture. 
+	      Comparison baselines includes DTAL, random selection, entropy ranking, DeepAL [1] and MOAID [2]. 
+		 The active learning labelling batch size range from 20 to 100. </h2>
+         <p>
+         <center><img style="width: 95%;" src="./CSS/lines_sportsmatch.jpg" alt="SMVL results"></center>
+         </p>
+	      
+	      
+	      
+         <h2 id="description">Fully supervised training results</h2>
+         <p>
+         <div class="tab">
+            <table align="center" width="80%" style="margin: 0px auto;" class="justify" cellpadding="0" cellspacing="0">
+               <thead align="center">
+                  <tr>
+		     <th>Method</th>
+                     <th>mAP</th>
+                  </tr>
+               </thead>
+               <thead align="center">
+                  <tr>
+		     <th>FR-CNN [3] + Res101 </th>
+                     <th>92.10</th>
+                  </tr>
+               </thead>
+            </table>
+         </div>
+	      
+         <h2 id="description">DTAL Selection Metric Algorithm Codes Download</h2>
+	      <p><a href="https://drive.google.com/file/d/1_EtTcjlXoIPPlpZ5kgrib3WsF1ckXJc0/view?usp=sharing">Matlab Codes</a></p>
+	      <p>This is our original codes used in [5]. The codes are based on Matlab. Please note that the codes are in a coarse state, 
+		      publicated as reference for reproducing [5].</p>
+
+	      
+                  <br> 
+                  <p> [1]. Hamed H Aghdam, Abel Gonzalez-Garcia, Joost van de Weijer and Antonio M Lopez. Active learning for deep detectin neural networks. ICCV 2019. </p>
+	          <p> [2]. Tianning Yuan, Fang Wan, Mengying Fu, Jianzhuang Liu, Songcen Xu, Xiangyang Ji and Qixiang Ye. Multiple instance active learning for object detection. CVPR 2021. </p>
+	       	  <p> [3]. Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun. Faster r-cnn: Towards real time object detection with region proposal networks. NIPS 2015. </p>   
+	          <p> [4]. Kaiming He, Xiangyu Zhang, Shaoqing Ren and Jian Sun. Deep residual learning for image recognition. CVPR 2016. </p>
+	          <p> [5]. A Deep Transfer Active Learning Approach to Logo Detection in Sports Video. In Proc. </p>
+		  <br>
+      </div>
+   </body>
+</html>
