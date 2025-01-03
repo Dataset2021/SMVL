@@ -1,1 +1,1 @@
-# SMVL: Sports Match Video Logo dataset
+# SMVL: Sports-Match Video Logo dataset
