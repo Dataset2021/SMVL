@@ -4,3 +4,13 @@
   booktitle={British Machine Vision Conference}
   year={2018}
 }
+@article{su2023video,
+  title={Video logo detection by Deep-Transfer Active Learning},
+  author={Su, Hang and Qiu, Guoping},
+  journal={Discrete and Continuous Dynamical Systems-S},
+  volume={16},
+  number={7},
+  pages={1810--1826},
+  year={2023},
+  publisher={Discrete and Continuous Dynamical Systems-S}
+}
